@@ -40,6 +40,18 @@ ARCH=amd64 DIST=testing gbp buildpackage -us -uc
 All source code, .dsc files, .debs, and other output will be stored in
 ```/tmp/build-area/``` on your local file system.
 
+### Sample build process for all packages
+
+As an example, one may build all current Subgraph Debian packages:
+```
+bash ./setup.sh
+bash ./fetch-src.sh
+bash ./build-sg-pkgs.sh
+```
+
+All source code will be stored in ```./tmp/``` and all build output will be
+placed in ```/tmp/build-area/```.
+
 ### Build status
 
 Each package is automatically built for each commit on the respective
