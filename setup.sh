@@ -1,5 +1,6 @@
 #!/bin/bash
 
+sudo apt install -y git debhelper lintian diffoscope
 sudo apt install -y pbuilder debootstrap devscripts config-package-dev
 sudo apt install -y apt-cacher-ng cowbuilder git-buildpackage pristine-tar
 
