@@ -8,9 +8,14 @@ Subgraph Debian packages use ```git-buildpackage```. Upstream development is
 generally in the ```master``` branch while the Debian packaging is in the
 ```debian``` branch. ```git-buildpackage``` is configured to build with
 ```git-pbuilder``` using a copy-on-write file stored in
-```/var/cache/pbuilder/base-testing-amd64.cow``` and most packages produced
-with this COW file should be <a
-href="https://wiki.debian.org/ReproducibleBuilds">reproducible</a>.
+```/var/cache/pbuilder/base-testing-amd64.cow```.
+
+
+## Reproducibility
+
+Most packages produced with this build process should be <a
+href="https://wiki.debian.org/ReproducibleBuilds">reproducible</a>. Sample
+hashes for package builds as of May 8th, 2017 in the ```sample-hashes``` file.
 
 ## Build environment setup process
 
