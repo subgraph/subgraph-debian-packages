@@ -19,6 +19,7 @@ subgraph-environment-config
 subgraph-ferm-config
 subgraph-gnupg-config
 subgraph-grub-config
+subgraph-landings
 subgraph_metaproxy
 subgraph-networkmanager-config
 subgraph-nm-never-autoconnect
