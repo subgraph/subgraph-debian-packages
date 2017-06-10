@@ -57,6 +57,16 @@ bash ./build-sg-pkgs.sh
 All source code will be stored in ```./tmp/``` and all build output will be
 placed in ```/tmp/build-area/```.
 
+
+### Sample update process to build one package:
+
+As an example, update the chroot, update all source repos and build usblockout:
+```
+bash ./update-chroot.sh
+bash ./update-sg-srcs.sh
+bash ./build-package.sh usblockout
+```
+
 ### Build status
 
 Each package is automatically built for each commit on the respective
