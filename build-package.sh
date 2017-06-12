@@ -1,7 +1,6 @@
 #!/bin/bash
 set -e
 
-export ARCH=amd64
 export DIST=testing
 package="$1"
 gbp_args="buildpackage -us -uc"
