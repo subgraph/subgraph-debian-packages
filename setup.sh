@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo apt install -y git debhelper lintian diffoscope
-sudo apt install -y dh_python2 dh-autoreconf
+sudo apt install -y dh-python2 dh-autoreconf
 sudo apt install -y pbuilder debootstrap devscripts config-package-dev
 sudo apt install -y apt-cacher-ng cowbuilder git-buildpackage pristine-tar
 
