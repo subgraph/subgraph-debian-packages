@@ -1,10 +1,10 @@
 # subgraph-debian-packages
 
-Information and build status for SubgraphOS Debian packages
+Information and build status for Subgraph OS Debian packages
 
 ## Build overview
 
-Subgraph Debian packages use ```git-buildpackage```. Upstream development is
+Subgraph OS Debian packages use ```git-buildpackage```. Upstream development is
 generally in the ```master``` branch while the Debian packaging is in the
 ```debian``` branch. ```git-buildpackage``` is configured to build with
 ```git-pbuilder``` using a copy-on-write file stored in
@@ -19,7 +19,7 @@ hashes for package builds as of May 8th, 2017 in the ```sample-hashes``` file.
 
 ## Build environment setup process
 
-Subgraph targets Debian testing and the build process should be performed on a
+Subgraph OS targets Debian testing and the build process should be performed on a
 fully updated SubgraphOS or Debian Testing system.
 
 To create the local git-pbuilder root, run the ```setup.sh``` provided in this
@@ -33,7 +33,7 @@ To use the build root always set ```ARCH=amd64 DIST=testing``` before any
 
 ## Package build process
 
-To build any Subgraph Debian package the steps are uniform; simply pick a
+To build any Subgraph OS Debian package the steps are uniform; simply pick a
 project and run the following commands:
 ```
 git clone https://www.github.com/subgraph/sgos_handbook
@@ -47,7 +47,7 @@ All source code, .dsc files, .debs, and other output will be stored in
 
 ### Sample build process for all packages
 
-As an example, one may build all current Subgraph Debian packages:
+As an example, one may build all current Subgraph OS Debian packages:
 ```
 bash ./setup.sh
 bash ./fetch-src.sh
