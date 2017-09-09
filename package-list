@@ -1,4 +1,5 @@
 base-files
+bulb
 fw-daemon
 gnome-session-subgraph
 gnome-shell-extension-ozshell
@@ -8,6 +9,7 @@ libmacouflage
 macouflage
 macouflage-multi
 oz
+onioncfg
 paxrat
 roflcoptor
 sgos_handbook

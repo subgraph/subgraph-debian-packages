@@ -73,6 +73,7 @@ Each package is automatically built for each commit on the respective
 ```debian``` branch. 
 
 [![Build Status](https://travis-ci.org/subgraph/base-files.svg?branch=debian)](https://travis-ci.org/subgraph/base-files): <a href="https://www.github.com/subgraph/base-files">base-files</a><br>
+[![Build Status](https://travis-ci.org/subgraph/bulb.svg?branch=debian)](https://travis-ci.org/subgraph/bulb): <a href="https://www.github.com/subgraph/bulb">bulb</a><br>
 [![Build Status](https://travis-ci.org/subgraph/fw-daemon.svg?branch=debian)](https://travis-ci.org/subgraph/fw-daemon): <a href="https://www.github.com/subgraph/fw-daemon">fw-daemon</a><br>
 [![Build Status](https://travis-ci.org/subgraph/gnome-session-subgraph.svg?branch=debian)](https://travis-ci.org/subgraph/gnome-session-subgraph): <a href="https://www.github.com/subgraph/gnome-session-subgraph">gnome-session-subgraph</a><br>
 [![Build Status](https://travis-ci.org/subgraph/gnome-shell-extension-ozshell.svg?branch=debian)](https://travis-ci.org/subgraph/gnome-shell-extension-ozshell): <a href="https://www.github.com/subgraph/gnome-shell-extension-ozshell">gnome-shell-extension-ozshell</a><br>
@@ -81,6 +82,7 @@ Each package is automatically built for each commit on the respective
 [![Build Status](https://travis-ci.org/subgraph/libmacouflage.svg?branch=debian)](https://travis-ci.org/subgraph/libmacouflage): <a href="https://www.github.com/subgraph/libmacouflage">libmacouflage</a><br>
 [![Build Status](https://travis-ci.org/subgraph/macouflage.svg?branch=debian)](https://travis-ci.org/subgraph/macouflage): <a href="https://www.github.com/subgraph/macouflage">macouflage</a><br>
 [![Build Status](https://travis-ci.org/subgraph/macouflage-multi.svg?branch=debian)](https://travis-ci.org/subgraph/macouflage-multi): <a href="https://www.github.com/subgraph/macouflage-multi">macouflage-multi</a><br>
+[![Build Status](https://travis-ci.org/subgraph/onioncfg.svg?branch=debian)](https://travis-ci.org/subgraph/onioncfg): <a href="https://www.github.com/subgraph/onioncfg">onioncfg</a><br>
 [![Build Status](https://travis-ci.org/subgraph/oz.svg?branch=debian)](https://travis-ci.org/subgraph/oz): <a href="https://www.github.com/subgraph/oz">oz</a><br>
 [![Build Status](https://travis-ci.org/subgraph/paxrat.svg?branch=debian)](https://travis-ci.org/subgraph/paxrat): <a href="https://www.github.com/subgraph/paxrat">paxrat</a><br>
 [![Build Status](https://travis-ci.org/subgraph/roflcoptor.svg?branch=debian)](https://travis-ci.org/subgraph/roflcoptor): <a href="https://www.github.com/subgraph/roflcoptor">roflcoptor</a><br>
