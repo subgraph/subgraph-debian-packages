@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-export DIST=testing
+export DIST=stretch
 package="$1"
 gbp_args="buildpackage -us -uc"
 

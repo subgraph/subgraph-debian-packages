@@ -4,4 +4,4 @@
 #
 set -e
 sudo /etc/init.d/apt-cacher-ng start
-DIST=testing git-pbuilder update
+DIST=stretch git-pbuilder update

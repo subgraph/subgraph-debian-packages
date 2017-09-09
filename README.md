@@ -8,7 +8,7 @@ Subgraph Debian packages use ```git-buildpackage```. Upstream development is
 generally in the ```master``` branch while the Debian packaging is in the
 ```debian``` branch. ```git-buildpackage``` is configured to build with
 ```git-pbuilder``` using a copy-on-write file stored in
-```/var/cache/pbuilder/base-testing-amd64.cow```.
+```/var/cache/pbuilder/base-stretch-amd64.cow```.
 
 
 ## Reproducibility
@@ -19,8 +19,8 @@ hashes for package builds as of May 8th, 2017 in the ```sample-hashes``` file.
 
 ## Build environment setup process
 
-Subgraph targets Debian testing and the build process should be performed on a
-fully updated SubgraphOS or Debian Testing system.
+Subgraph targets Debian Stretch and the build process should be performed on a
+fully updated SubgraphOS or Debian Stretch system.
 
 To create the local git-pbuilder root, run the ```setup.sh``` provided in this
 git repository:
@@ -28,7 +28,7 @@ git repository:
 bash -x setup.sh
 ```
 
-To use the build root always set ```ARCH=amd64 DIST=testing``` before any
+To use the build root always set ```ARCH=amd64 DIST=stretch``` before any
 ```git-buildpackage``` or other related commands.
 
 ## Package build process
@@ -39,7 +39,7 @@ project and run the following commands:
 git clone https://www.github.com/subgraph/sgos_handbook
 cd sgos_handbook/
 git checkout debian
-ARCH=amd64 DIST=testing gbp buildpackage -us -uc
+ARCH=amd64 DIST=stretch gbp buildpackage -us -uc
 ```
 
 All source code, .dsc files, .debs, and other output will be stored in
