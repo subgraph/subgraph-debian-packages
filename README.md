@@ -67,6 +67,11 @@ bash ./update-sg-srcs.sh
 bash ./build-package.sh usblockout
 ```
 
+### Enter the chroot to change or update the chroot manually with the following command:
+```
+sudo ARCH=amd64 DIST=stretch /usr/sbin/cowbuilder --architecture amd64 --login --basepath /var/cache/pbuilder/base-stretch.cow --save
+```
+
 ### Build status
 
 Each package is automatically built for each commit on the respective
