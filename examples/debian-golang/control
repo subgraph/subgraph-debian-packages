@@ -1,0 +1,17 @@
+Source: PACKAGE_NAME
+Section: admin
+Priority: optional
+Maintainer: Subgraph <info@subgraph.com>
+Build-Depends: debhelper (>= 10), golang-go (>= 1.6), dh-golang
+Standards-Version: 3.9.8
+Homepage: https://github.com/subgraph/PACKAGE_NAME
+Vcs-Git: https://github.com/subgraph/PACKAGE_NAME.git
+XS-Go-Import-Path: github.com/subgraph/PACKAGE_NAME
+Vcs-Browser: https://github.com/subgraph/PACKAGE_NAME
+
+Package: PACKAGE_NAME
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: sample golang package for PACKAGE_NAME
+ PACKAGE_NAME is used for ...
+ .

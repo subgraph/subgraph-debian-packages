@@ -1,0 +1,18 @@
+#!/usr/bin/make -f
+
+export DH_VERBOSE=1
+export DH_OPTIONS
+export DH_GOPKG := github.com/subgraph/PACKAGE_NAME
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
+override_dh_auto_build:
+	dh_auto_build -- -buildmode=pie -pkgdir=$$(mktemp -d -p $(CURDIR))
+
+override_dh_auto_install:
+	dh_auto_install
+	rm -rf $(CURDIR)/debian/PACKAGE_NAME/usr/share/gocode
+
+override_dh_auto_test:
+	@echo skipped auto test
