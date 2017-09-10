@@ -124,5 +124,6 @@ EOF
 apt-key add /tmp/subgraph-apt-key.asc
 rm /tmp/subgraph-apt-key.asc
 
-apt-get update
+apt-get update -y
+apt-get dist-upgrade -y
 apt-get clean
