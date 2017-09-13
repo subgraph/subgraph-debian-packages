@@ -30,4 +30,6 @@ subgraph-oz-profiles
 subgraph-pulse-config
 subgraph-standard
 subgraph-tor-config
+sublogmon
+sublogmon-gui
 usblockout

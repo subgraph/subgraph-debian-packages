@@ -109,4 +109,6 @@ Each package is automatically built for each commit on the respective
 [![Build Status](https://travis-ci.org/subgraph/subgraph-pulse-config.svg?branch=debian)](https://travis-ci.org/subgraph/subgraph-pulse-config): <a href="https://www.github.com/subgraph/subgraph-pulse-config">subgraph-pulse-config</a><br>
 [![Build Status](https://travis-ci.org/subgraph/subgraph-standard.svg?branch=debian)](https://travis-ci.org/subgraph/subgraph-standard): <a href="https://www.github.com/subgraph/subgraph-standard">subgraph-standard</a><br>
 [![Build Status](https://travis-ci.org/subgraph/subgraph-tor-config.svg?branch=debian)](https://travis-ci.org/subgraph/subgraph-tor-config): <a href="https://www.github.com/subgraph/subgraph-tor-config">subgraph-tor-config</a><br>
+[![Build Status](https://travis-ci.org/subgraph/sublogmon.svg?branch=debian)](https://travis-ci.org/subgraph/sublogmon): <a href="https://www.github.com/subgraph/sublogmon">sublogmon</a><br>
+[![Build Status](https://travis-ci.org/subgraph/sublogmon-gui.svg?branch=debian)](https://travis-ci.org/subgraph/sublogmon-gui): <a href="https://www.github.com/subgraph/sublogmon-gui">sublogmon-gui</a><br>
 [![Build Status](https://travis-ci.org/subgraph/usblockout.svg?branch=debian)](https://travis-ci.org/subgraph/usblockout): <a href="https://www.github.com/subgraph/usblockout">usblockout</a><br>
