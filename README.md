@@ -39,7 +39,7 @@ project and run the following commands:
 git clone https://www.github.com/subgraph/sgos_handbook
 cd sgos_handbook/
 git checkout debian
-ARCH=amd64 DIST=stretch gbp buildpackage -us -uc
+ARCH=amd64 gbp buildpackage -us -uc --git-dist=stretch
 ```
 
 All source code, .dsc files, .debs, and other output will be stored in

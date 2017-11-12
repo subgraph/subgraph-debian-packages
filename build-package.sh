@@ -3,7 +3,7 @@ set -e
 
 export DIST=stretch
 package="$1"
-gbp_args="buildpackage -us -uc"
+gbp_args="buildpackage -us -uc --git-dist=${DIST}"
 
 echo "building $package...";
 cd tmp/$package 
