@@ -112,3 +112,6 @@ Each package is automatically built for each commit on the respective
 [![Build Status](https://travis-ci.org/subgraph/sublogmon.svg?branch=debian)](https://travis-ci.org/subgraph/sublogmon): <a href="https://www.github.com/subgraph/sublogmon">sublogmon</a><br>
 [![Build Status](https://travis-ci.org/subgraph/sublogmon-gui.svg?branch=debian)](https://travis-ci.org/subgraph/sublogmon-gui): <a href="https://www.github.com/subgraph/sublogmon-gui">sublogmon-gui</a><br>
 [![Build Status](https://travis-ci.org/subgraph/usblockout.svg?branch=debian)](https://travis-ci.org/subgraph/usblockout): <a href="https://www.github.com/subgraph/usblockout">usblockout</a><br>
+[![Build Status](https://travis-ci.org/subgraph/monero.svg?branch=debian)](https://travis-ci.org/subgraph/monero): <a href="https://www.github.com/subgraph/monero">monero</a><br>
+[![Build Status](https://travis-ci.org/subgraph/monero-gui.svg?branch=debian)](https://travis-ci.org/subgraph/monero-gui): <a href="https://www.github.com/subgraph/monero-gui">monero-gui</a><br>
+

@@ -33,3 +33,5 @@ subgraph-tor-config
 sublogmon
 sublogmon-gui
 usblockout
+monero
+monero-gui
