@@ -21,7 +21,7 @@ apt -y install gnupg2 ca-certificates
 
 # Add subgraph repo to the cow
 cat << EOF > /etc/apt/sources.list.d/subgraph.list
-deb http://127.0.0.1:3142/devrepo.subgraph.com/subgraph/ aaron main
+deb http://127.0.0.1:3142/devrepo.subgraph.com/subgraph aaron main
 EOF
 
 cat << EOF > /tmp/subgraph-apt-key.asc
