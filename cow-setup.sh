@@ -1,14 +1,27 @@
-#!/bin/bash
+#!/bin/bash -x
 #
 # This script is called by cowbuilder.
 #
 set -e
 
-apt -y install apt-transport-https apt-transport-tor gnupg2 ca-certificates
+cat << 'EOF' > /etc/apt/apt.conf.d/00proxy
+Acquire::http { Proxy "http://127.0.0.1:3142"; };
+EOF
+
+cat << 'EOF' > /etc/apt/sources.list
+deb http://127.0.0.1:3142/deb.debian.org/debian stretch main contrib non-free
+deb-src http://127.0.0.1:3142/deb.debian.org/debian stretch main contrib non-free
+## Security updates
+deb http://127.0.0.1:3142/deb.debian.org/debian-security stretch/updates main contrib non-free
+deb-src http://127.0.0.1:3142/deb.debian.org/debian-security stretch/updates main contrib non-free
+EOF
+
+apt update -y
+apt -y install gnupg2 ca-certificates
 
 # Add subgraph repo to the cow
 cat << EOF > /etc/apt/sources.list.d/subgraph.list
-deb tor+https://devrepo.subgraph.com/subgraph/ aaron main 
+deb http://127.0.0.1:3142/devrepo.subgraph.com/subgraph/ aaron main
 EOF
 
 cat << EOF > /tmp/subgraph-apt-key.asc
@@ -124,6 +137,5 @@ EOF
 apt-key add /tmp/subgraph-apt-key.asc
 rm /tmp/subgraph-apt-key.asc
 
-apt-get update -y
-apt-get dist-upgrade -y
-apt-get clean
+apt dist-upgrade -y
+apt clean
