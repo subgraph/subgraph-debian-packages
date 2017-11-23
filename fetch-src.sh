@@ -9,6 +9,10 @@ cd tmp;
 echo "fetching packages...";
 for package in $packages;
 do
- git clone $base_url/$package.git;
+ if [ ! -d $package ]; then
+   git clone $base_url/$package.git;
+ else
+   echo "$package already cloned"
+ fi
 done
 echo "Done fetching source code to tmp";
